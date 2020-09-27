@@ -10,7 +10,7 @@ modules:
     title: Slide 1
     caption: Slide 1 Caption Lorem ipsum
     images:
-    - src/site/_media/analytics.json
+    - src/site/_media/images/analytics-badge.json
   title: Test Gallery
 
 ---
