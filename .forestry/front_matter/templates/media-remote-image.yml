@@ -18,3 +18,7 @@ fields:
     required: false
   label: Source
   description: Remote image URL
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
