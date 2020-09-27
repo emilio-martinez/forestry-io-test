@@ -1,4 +1,14 @@
 ---
-label: "[Entity] Image"
+label: "[Media] Image"
 hide_body: true
-fields: []
+fields:
+- name: alt
+  type: text
+  config:
+    required: false
+  label: Alt
+- name: source
+  type: file
+  config:
+    maxSize: 16
+  label: Source

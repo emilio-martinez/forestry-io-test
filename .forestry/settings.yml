@@ -17,7 +17,7 @@ sections:
   label: Media Library
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - entity-image
 upload_dir: src/site/_uploads
