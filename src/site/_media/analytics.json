@@ -1,5 +1,8 @@
 {
-  "title": "Analytics",
+  "title": "Analytics Badge",
   "alt": "A cloud  with a donut graph around it",
-  "source": "~/_uploads/badge_analytics.png"
+  "source": "~/_uploads/badge_analytics.png",
+  "tags": [
+
+  ]
 }
