@@ -1,0 +1,18 @@
+---
+label: "[Module] Gallery"
+hide_body: true
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: slides
+  type: blocks
+  label: Slides
+  template_types:
+  - module-gallery-slide-multi-image
+  config:
+    min: 
+    max: 

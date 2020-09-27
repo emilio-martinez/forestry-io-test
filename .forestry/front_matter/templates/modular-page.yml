@@ -1,0 +1,26 @@
+---
+label: "[Page] Modular"
+hide_body: true
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  hidden: false
+- name: modules
+  type: blocks
+  label: Modules
+  template_types:
+  - module-gallery
+  config:
+    min: 
+    max: 
+pages:
+- src/site/test-page.md
