@@ -18,4 +18,4 @@ fields:
     maxSize: 16
   label: Source
 pages:
-- src/site/_media/analytics.json
+- src/site/_media/analytics-badge.json
