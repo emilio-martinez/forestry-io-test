@@ -3,24 +3,19 @@ label: "[Media] Image"
 hide_body: true
 display_field: title
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
 - name: alt
   type: text
   config:
     required: false
   label: Alt
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: source
   type: file
   config:
     maxSize: 16
   label: Source
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 pages:
 - src/site/_media/analytics.json
