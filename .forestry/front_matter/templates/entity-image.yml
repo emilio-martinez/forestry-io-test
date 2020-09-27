@@ -3,6 +3,12 @@ label: "[Media] Image"
 hide_body: true
 display_field: title
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title to display within the editor
 - name: alt
   type: text
   config:
