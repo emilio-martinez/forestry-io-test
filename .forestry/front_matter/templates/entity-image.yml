@@ -18,3 +18,5 @@ fields:
   config:
     maxSize: 16
   label: Source
+pages:
+- src/site/_media/analytics.json
