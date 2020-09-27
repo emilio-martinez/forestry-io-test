@@ -9,6 +9,8 @@ modules:
     - "~/_uploads/badge_analytics.png"
     title: Slide 1
     caption: Slide 1 Caption Lorem ipsum
+    images:
+    - src/site/_media/analytics.json
   title: Test Gallery
 
 ---
