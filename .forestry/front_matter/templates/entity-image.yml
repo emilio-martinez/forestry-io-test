@@ -18,5 +18,9 @@ fields:
   config:
     maxSize: 16
   label: Source
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - src/site/_media/analytics.json
