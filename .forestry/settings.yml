@@ -20,6 +20,7 @@ sections:
   new_doc_ext: json
   templates:
   - entity-image
+  - media-remote-image
 upload_dir: src/site/_uploads
 public_path: "~/_uploads"
 front_matter_path: ''
