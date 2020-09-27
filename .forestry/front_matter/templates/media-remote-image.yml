@@ -1,4 +1,20 @@
 ---
 label: "[Media] Remote Image"
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: alt
+  type: text
+  config:
+    required: false
+  label: Alt
+- name: source
+  type: text
+  config:
+    required: false
+  label: Source
+  description: Remote image URL
