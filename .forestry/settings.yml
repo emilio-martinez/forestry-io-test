@@ -11,6 +11,14 @@ sections:
   match: "**/*"
   templates:
   - modular-page
+- type: directory
+  path: src/site/_media-library
+  label: Media Library
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
+  templates:
+  - entity-image
 upload_dir: src/site/_uploads
 public_path: "~/_uploads"
 front_matter_path: ''
