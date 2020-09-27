@@ -24,4 +24,4 @@ fields:
     maxSize: 16
   label: Source
 pages:
-- src/site/_media/images/analytics-badge.json
+- src/site/_media/images/test-image.json
